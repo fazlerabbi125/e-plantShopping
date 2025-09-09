@@ -4,16 +4,17 @@
 .cart-item {
   display: flex;
   border-bottom: 1px solid #ccc;
-  padding: 10px 0;
+  padding: 10px;
   background-color: white;
   width: 500px;
-  gap: 30px;
+  gap: 20px;
 }
 
 .cart-item-image {
   width: 200px;
   height: 200px;
-  /* object-fit: contain; */
+  object-fit: cover;
+  object-position: center;
   margin-right: 20px;
 }
 
@@ -104,10 +105,10 @@
 .cart-item {
     display: flex;
     border-bottom: 1px solid #ccc;
-    padding: 10px 0;
+    padding: 10px;
     background-color: white;
     width: 500px;
-    gap: 30px;
+    gap: 20px;
   }
   
   .cart-item-image {
